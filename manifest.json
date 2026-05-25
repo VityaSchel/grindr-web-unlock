@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "Grindr Web Unlock",
+	"version": "1.0.1",
+	"description": "Unlock web.grind.org for free users",
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"https://web.grindr.com/assets/index-*.js*"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "unlock-web.grindr.com_unlisted@opengrind.org",
+			"data_collection_permissions": {
+				"required": ["none"],
+				"optional": []
+			}
+		}
+	}
+}

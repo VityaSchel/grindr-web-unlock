@@ -1,6 +1,7 @@
 # web.grindr.com unlock
 
-> [!NOTE] Does not work in Chrome.
+> [!NOTE]
+> Does not work in Chrome.
 
 Simple Firefox extension/add-on to unlock the web client on web.grindr.com for free users. Does not work in Chrome. Presented to you by [Open Grind](https://opengrind.org) project.
 

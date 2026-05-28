@@ -1,6 +1,6 @@
 # Grindr Web Unlock
 
-![Screenshot](./docs/screenshot.avif)
+![Screenshot](./contrib/screenshot.avif)
 
 Simple browser extension/add-on to unlock web.grindr.com for free users, bypassing paywall. Presented to you by [Open Grind](https://opengrind.org) project.
 

@@ -4,6 +4,10 @@
 
 Simple browser extension/add-on to unlock web.grindr.com for free users, bypassing paywall. Presented to you by [Open Grind](https://opengrind.org) project.
 
+> [!Note]
+> Loading conversations and messages history is not possible at the moment (see issue #2).
+> You can still send messages and receive new ones when opening a chat via profile page.
+
 ## Usage
 
 To use the extension, simply install it in your browser and visit [web.grindr.com](https://web.grindr.com). No configuration is needed.

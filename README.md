@@ -14,7 +14,7 @@ To use the extension, simply install it in your browser and visit [web.grindr.co
 
 ### Google Chrome and other browsers
 
-1. [Download source code](https://git.opengrind.org/open-grind/grindr-web-unlock/releases/download/v1.0.2/grindr-web-unlock-v1.0.2.zip)
+1. [Download source code](https://git.opengrind.org/open-grind/grindr-web-unlock/releases/download/v1.0.2/grindr_web_unlock-1.0.2.zip)
 2. Unzip the downloaded file
 3. Go to your browser's extensions page in developer mode:
    - Google Chrome: `chrome://extensions/` -> `Developer mode` toggle — enabled

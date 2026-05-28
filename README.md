@@ -2,7 +2,7 @@
 
 ![Screenshot](./docs/screenshot.avif)
 
-Simple Firefox extension/add-on to unlock web.grindr.com for free users, bypassing paywall. Presented to you by [Open Grind](https://opengrind.org) project.
+Simple browser extension/add-on to unlock web.grindr.com for free users, bypassing paywall. Presented to you by [Open Grind](https://opengrind.org) project.
 
 ## Usage
 

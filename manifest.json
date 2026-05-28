@@ -1,25 +1,30 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Grindr Web Unlock",
-	"version": "1.0.1",
+	"homepage_url": "https://git.opengrind.org/open-grind/grindr-web-unlock",
+	"version": "1.0.2",
 	"description": "Unlock web.grind.org for free users",
-	"permissions": [
-		"webRequest",
-		"webRequestBlocking",
-		"https://web.grindr.com/assets/index-*.js*"
-	],
-	"background": {
-		"scripts": [
-			"background.js"
-		]
-	},
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "unlock-web.grindr.com_unlisted@opengrind.org",
+			"id": "unlock-web.grindr.com@opengrind.org",
 			"data_collection_permissions": {
 				"required": ["none"],
 				"optional": []
 			}
 		}
-	}
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://web.grindr.com/*"
+			],
+			"js": [
+				"src/cookie-guard.js",
+				"src/unlock.js"
+			],
+			"run_at": "document_start",
+			"world": "MAIN",
+			"all_frames": false
+		}
+	]
 }

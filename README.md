@@ -12,17 +12,17 @@ Simple browser extension/add-on to unlock web.grindr.com for free users, bypassi
 
 To use the extension, simply install it in your browser and visit [web.grindr.com](https://web.grindr.com). No configuration is needed.
 
-### Firefox, Firefox for Android, LibreWolf
+- **Firefox, Firefox for Android, LibreWolf:** [Download on Firefox Add-ons website](https://addons.mozilla.org/addon/grindr-web-unlock/)
+- **Google Chrome, Chromium, Brave:** [Download in Chrome Web Store](https://chromewebstore.google.com/detail/grindr-web-unlock/heegnoimhkeiichdpgokhlpnepccigfc)
+- **Safari:** not supported
 
-- [Download on Firefox Add-ons](https://addons.mozilla.org/addon/grindr-web-unlock/)
+## Load from source (for advanced users)
 
-### Google Chrome and other browsers
-
-1. [Download source code](https://git.opengrind.org/open-grind/grindr-web-unlock/releases/download/v1.0.3/grindr_web_unlock-1.0.3.zip)
+1. [Download source code](https://git.opengrind.org/open-grind/grindr-web-unlock/releases)
 2. Unzip the downloaded file
 3. Go to your browser's extensions page in developer mode:
-   - Google Chrome: `chrome://extensions/` -> `Developer mode` toggle — enabled
-   - Firefox: `about:debugging#/runtime/this-firefox`
+   - Chromium: `chrome://extensions/` -> `Developer mode` toggle — enabled
+   - Firefox-based: `about:debugging` -> `This Firefox`
 4. Load the unpacked extension:
    - Google Chrome: `Load unpacked` -> Select the unzipped folder
    - Firefox: `Load Temporary Add-on` -> Select manifest.json in the unzipped folder

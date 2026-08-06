@@ -21,11 +21,11 @@ To use the extension, simply install it in your browser and visit [web.grindr.co
 1. [Download source code](https://git.opengrind.org/open-grind/grindr-web-unlock/releases)
 2. Unzip the downloaded file
 3. Go to your browser's extensions page in developer mode:
-   - Chromium: `chrome://extensions/` -> `Developer mode` toggle — enabled
-   - Firefox-based: `about:debugging` -> `This Firefox`
+    - Chromium: `chrome://extensions/` -> `Developer mode` toggle — enabled
+    - Firefox-based: `about:debugging` -> `This Firefox`
 4. Load the unpacked extension:
-   - Google Chrome: `Load unpacked` -> Select the unzipped folder
-   - Firefox: `Load Temporary Add-on` -> Select manifest.json in the unzipped folder
+    - Google Chrome: `Load unpacked` -> Select the unzipped folder
+    - Firefox: `Load Temporary Add-on` -> Select manifest.json in the unzipped folder
 
 ## License
 

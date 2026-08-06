@@ -22,13 +22,8 @@
 	},
 	"content_scripts": [
 		{
-			"matches": [
-				"https://web.grindr.com/*"
-			],
-			"js": [
-				"src/cookie-guard.js",
-				"src/unlock.js"
-			],
+			"matches": ["https://web.grindr.com/*"],
+			"js": ["src/cookie-guard.js", "src/unlock.js"],
 			"run_at": "document_start",
 			"world": "MAIN",
 			"all_frames": false

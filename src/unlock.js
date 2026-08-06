@@ -14,7 +14,9 @@
 			) {
 				result.features.push(FEATURE);
 			}
-		} catch {}
+		} catch {
+			// leave the parsed result untouched
+		}
 		return result;
 	};
 })();
